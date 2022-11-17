@@ -1,0 +1,146 @@
+body{
+    margin: 5rem 10rem;
+}
+h3{
+    color: hsl(236, 13%, 42%);
+}
+.inter-regular{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.inter-bold{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.inter-exbold{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+.nav-link{
+    margin-top: 1rem;
+    margin-left: 16px;
+    font-size: 15px;
+}
+.nav-link:hover{
+    color: hsl(35, 77%, 62%);
+}
+#navbarSupportedContent{
+    text-align: right;
+}
+img{
+    max-width: 100%;
+    padding: 0 0.25rem;
+}
+.img-n-text{
+    margin-top: 2rem;
+}
+.news-box{
+    background-color: hsl(240, 100%, 5%);
+    margin-top: 2rem;
+}
+.main-heading{
+    color: hsl(240, 100%, 5%);
+    padding-left: 0;
+}
+.main-text{
+    font-size: 15px;
+    color:  hsl(236, 13%, 42%);
+    /* padding: 0 1rem; */
+    padding-left: 2rem;
+}
+.text{
+    padding:  1rem;
+    padding-bottom: 0;
+}
+.read-more{
+    background-color: hsl(5, 85%, 63%);
+    border-radius: 0;
+    margin-bottom: 0;
+    color:hsl(36, 100%, 99%) ;
+    letter-spacing: 2px;
+}
+.read-more:hover{
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+}
+.new{
+    color: hsl(35, 77%, 62%);
+}
+.news{
+    color: hsl(36, 100%, 99%);
+    /* padding-bottom: 1rem; */
+}
+.news-headings{
+    margin-bottom: 0.5rem;
+
+}
+.news-headings:hover{
+    color: hsl(35, 77%, 62%);
+}
+.news-text{
+    color: hsl(233, 8%, 79%);
+    font-size: 15px;
+}
+hr{
+    color:hsl(36, 100%, 99%) ;
+    margin: 2rem 0;
+}
+/* @media only screen and (min-width:600px){
+    html{
+        zoom: .8;
+    }
+}
+@media only screen and (min-width:800px){
+    html{
+        zoom: .9;
+    }
+}
+@media only screen and (min-width:1000px){
+    html{
+        zoom: 1;
+    }
+} */
+.sec-img{
+    max-width: 100%;
+}
+.arti-head{
+    font-size: 15px;
+    margin-bottom: 0.25rem;
+    color: hsl(240, 100%, 5%);
+}
+.arti-head:hover{
+    color: hsl(35, 77%, 62%);
+}
+.arti-text{
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+}
+.articles{
+    padding: 2rem 0;
+}
+.image2{
+    visibility: hidden;
+    display: none;
+}
+.checkbox{
+    position: sticky;
+}
+@media (max-width:576px){
+    body{
+        margin: 1rem 2rem;
+    }
+    .image1{
+        display: none;
+    }
+    .image2{
+        display: block;
+        visibility: visible;
+    }
+    .main-text{
+        padding-left: 0;
+    }
+}
+#menu-close{
+    display: none;
+}
