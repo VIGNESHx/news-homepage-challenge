@@ -1,0 +1,129 @@
+body{
+    margin: 5rem 10rem;
+}
+hr,.news,.read-more,.read-more:hover{
+    color: hsl(36, 100%, 99%);
+}
+.news-headings:hover,.arti-head:hover,.new,.nav-link:hover{
+    color: hsl(35, 77%, 62%);
+}
+h3,.main-text,.arti-text{
+    color: hsl(236, 13%, 42%);
+}
+.nav-link,.main-text,.arti-text,.arti-head,.news-text,.attribution{
+    font-size: 15px;
+}
+.news-box,.read-more:hover{
+    background-color: hsl(240, 100%, 5%);
+}
+/* font classes */
+.inter-regular{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.inter-bold{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.inter-exbold{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+.attribution { text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+.nav-link{
+    margin-top: 1rem;
+    margin-left: 16px;
+}
+
+#navbarSupportedContent{
+    text-align: right;
+}
+img{
+    max-width: 100%;
+    padding: 0 0.25rem;
+}
+.img-n-text{
+    margin-top: 2rem;
+}
+.news-box{
+    
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.main-heading{
+    color: hsl(240, 100%, 5%);
+    padding-left: 0;
+    padding-right: 3rem;
+}
+.main-text{
+    padding-left: 10%;
+}
+.text{
+    padding:  1rem;
+    padding-bottom: 0;
+}
+.read-more{
+    background-color: hsl(5, 85%, 63%);
+    border-radius: 0;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+.new{
+    padding: 1rem 0;
+}
+.news-headings{
+    margin-bottom: 0.5rem;
+
+}
+.news-text{
+    color: hsl(233, 8%, 79%);
+}
+
+hr{
+    margin: 2rem 0;
+}
+.btn{
+    margin-bottom: 0;
+    margin-top: 24px;
+}
+/* Articles */
+.sec-img{
+    max-width: 100%;
+}
+.arti-head{
+    margin-bottom: 0.25rem;
+    color: hsl(240, 100%, 5%);
+}
+
+.articles{
+    padding: 2rem 0;
+}
+/* toggle button operation using javascript */
+#menu-close{
+    display: none;
+}
+/* image swapping */
+.image2{
+    visibility: hidden;
+    display: none;
+}
+
+@media (max-width:576px){
+    body{
+        margin: 1rem 2rem;
+    }
+    .image1{
+        display: none;
+    }
+    .image2{
+        display: block;
+        visibility: visible;
+    }
+    .main-text{
+        padding-left: 0;
+    }
+}
